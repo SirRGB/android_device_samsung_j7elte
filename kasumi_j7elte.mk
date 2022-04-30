@@ -33,3 +33,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # Kasumi specific build flags
 TARGET_FACE_UNLOCK_SUPPORTED := false
 KASUMI_SHIP_LAWNCHAIR := true
+
+# Gapps
+KASUMI_BUILD_TYPE := gapps
+TARGET_GAPPS_ARCH := arm
